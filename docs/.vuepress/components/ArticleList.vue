@@ -65,7 +65,7 @@ defineProps({
   //margin: 0 auto 1.25rem;
   margin-top: 50px;
   padding: 1rem 1.25rem;
-  border: 1px solid var(--c-border);
+  border: 2px solid rgba(144, 222, 187, 0.7);
   border-radius: 0.4rem;
   color: var(--c-text);
 
@@ -77,6 +77,7 @@ defineProps({
 
   &:hover {
     cursor: pointer;
+
   }
 
   .title {
@@ -84,7 +85,7 @@ defineProps({
 
     display: inline-block;
 
-    font-size: 1.28rem;
+    font-size: 2.0rem;
     line-height: 2rem;
 
     &::after {
@@ -140,5 +141,9 @@ defineProps({
       font-size: 1.15em;
     }
   }
+}
+
+code {
+  font-family:"Fira Code";
 }
 </style>
