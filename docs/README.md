@@ -1,9 +1,9 @@
 ---
 home: true
 title: 首页
-heroImage: https://images.waer.ltd/notes/qrcode_for_gh_578c9ef9a265_258.jpg
+heroImage: https://images.waer.ltd/notes/newlogo.png
 actions:
-  - text: 开始阅读
+  - text: 开始参悟
     link: /article/
     type: primary
 
@@ -17,15 +17,15 @@ features:
   - title: untools
     details: 一个用于将变量名称从驼峰式风格和下划线风格互换的Rust实用工具包。包括命令行程序以及Rust Crate
 
+
+
 footer: ©2024 [代号0408]. All Rights Reserved
 
+
+
+
+
 ---
-
-
-
-
-
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
 
 
 

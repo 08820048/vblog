@@ -122,7 +122,7 @@ int main() {
       },
       {
         "label": "我的第二个数据集",
-        "data": [28, 48, 40, 19, 96, 27, 100],
+        "data": [28, 48, 40, 19, 96, 27, 100],  
         "fill": true,
         "backgroundColor": "rgba(54, 162, 235, 0.2)",
         "borderColor": "rgb(54, 162, 235)",
