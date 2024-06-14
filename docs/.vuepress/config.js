@@ -11,7 +11,7 @@ export default defineUserConfig({
 
   title: '堆栈哲学',
   description: 'Simplicity is the soul of efficiency',
-
+  base: '/vblog/',
   theme: defaultTheme({
    // logo: 'https://vuejs.press/images/hero.png',
 
