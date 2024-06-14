@@ -1,7 +1,7 @@
 ---
 home: true
 title: 首页
-heroImage: https://s21.ax1x.com/2024/06/13/pkdkxEQ.jpg
+heroImage: https://images.waer.ltd/notes/qrcode_for_gh_578c9ef9a265_258.jpg
 actions:
   - text: 开始阅读
     link: /article/
