@@ -4,9 +4,10 @@ import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import {feedPlugin} from "@vuepress/plugin-feed";
-
-
+import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 export default defineUserConfig({
+
+
   lang: 'en-US',
 
   title: '堆栈哲学',
@@ -36,12 +37,49 @@ export default defineUserConfig({
     ],
   }),
 
+  // alert: [
+  //   {
+  //     id: "2019-7-29",
+  //     title: "文档公告",
+  //     content: `我们经常发布文档更新，部分页面的翻译可能仍在进行中。有关最新信息，请访问<a href="/en/">英文文档</a>。如果某个页面上的翻译有问题，请提issues<a href="https://github.com/teadocs/matplotlib-cn/issues" target="_blank">告诉我们</a>。`,
+  //   },
+  // ],
+
   plugins: [
+    mdEnhancePlugin({
+      // 你的选项
+      //alert:true,
+      spoiler:true,
+      mathjax: true,
+      // 启用下角标功能
+      sub: true,
+      // 启用上角标
+      sup: true,
+      // 任务列表
+      tasklist: true,
+      // 幻灯片
+      revealJs: true,
+      //注脚
+      footnote: true,
+      // 选项卡
+      tabs: true,
+      // 提示容器
+      hint:true,
+      mark: true,
+      chart: true,
+      echarts: true,
+      // 流程图
+      flowchart: true,
+      demo: true,
+
+    }),
+//    alertPlugin(),
     feedPlugin({
       // options
     }),
     docsearchPlugin({
       // options
+
     }),
     blogPlugin({
       // Only files under posts are articles
@@ -144,6 +182,7 @@ export default defineUserConfig({
       ],
       hotReload: true,
     }),
+
   ],
 
   bundler: viteBundler(),
