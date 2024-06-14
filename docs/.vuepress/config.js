@@ -10,7 +10,7 @@ export default defineUserConfig({
 
   lang: 'en-US',
 
-  title: '堆栈哲学',
+  title: 'Hello World!',
   description: 'Simplicity is the soul of efficiency',
   base: '',
   theme: defaultTheme({

@@ -65,7 +65,7 @@ defineProps({
   //margin: 0 auto 1.25rem;
   margin-top: 50px;
   padding: 1rem 1.25rem;
-  border: 2px solid rgba(144, 222, 187, 0.7);
+  border: 2px solid rgb(173, 204, 217);
   border-radius: 0.4rem;
   color: var(--c-text);
 
@@ -98,7 +98,8 @@ defineProps({
       width: 100%;
       height: 2px;
 
-      background: var(--c-brand);
+      //background: var(--c-brand);
+      background: #0cbae1;
 
       visibility: hidden;
 
@@ -131,19 +132,27 @@ defineProps({
   .excerpt {
     h1 {
       display: none;
+
     }
 
     h2 {
-      font-size: 1.2em;
+      font-size: 1.3em;
     }
 
     h3 {
-      font-size: 1.15em;
+      font-size: 1.2em;
     }
   }
 }
 
 code {
   font-family:"Fira Code";
+}
+
+.page {
+
+}
+body {
+  font-size: large;
 }
 </style>
