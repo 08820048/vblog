@@ -78,8 +78,9 @@ export default defineUserConfig({
       // options
     }),
     docsearchPlugin({
-      // options
-
+      appId: "R2QFVVF9X5",
+      apiKey: "ea18e5b000219a050bdc037f2bc278c6",
+      indexName: "0408-ilikexff",
     }),
     blogPlugin({
       // Only files under posts are articles
